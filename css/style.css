@@ -1,0 +1,39 @@
+.div-izq {
+    background-image: url(../imagenes_integrador_front/honolulu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.ba {
+    background-image: url(/imagenes_integrador_front/ba1.jpg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+}
+
+/*Oscurer imagen de fondo sin afectar el interior*/
+
+.ba::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.conf {
+    margin-right: 6rem;
+}
+
+footer {
+    background-color: rgb(23, 43, 57);
+}
+
+.card-img-top {
+    height: 397.8px;
+}
