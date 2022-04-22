@@ -6,7 +6,7 @@
 }
 
 .ba {
-    background-image: url(/imagenes_integrador_front/ba1.jpg);
+    background-image: url(../imagenes_integrador_front/ba1.jpg);
     height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
