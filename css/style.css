@@ -30,6 +30,10 @@
     margin-right: 6rem;
 }
 
+.allButFooter {
+    min-height: calc(100vh - 130px);
+}
+
 footer {
     background-color: rgb(23, 43, 57);
 }
@@ -37,3 +41,4 @@ footer {
 .card-img-top {
     height: 397.8px;
 }
+
